@@ -8,7 +8,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/gomodule/redigo/redis"
+	"github.com/garyburd/redigo/redis"
 )
 
 // Sentinel provides a way to add high availability (HA) to Redis Pool using
